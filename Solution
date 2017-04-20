@@ -1,0 +1,7 @@
+1.) Internal Storage -> By default, files saved to the internal storage are private to your application and other applications cannot access them. When the user uninstalls your application, these files are removed/deleted. 
+External Storage -> The external storage is more like a public storage, so for now, it's the sdcard, but could become any other type of storage (remote hard drive, or anything else).
+
+2.)Data resides in the cache till the app is installed on user device...
+
+3.)Normal Permissions -> Permissions which are not required to be granted by the user at run time.It only requires to mention in app manifest. For ex--> ACCESS_NETWROK_STATE
+ Crictical Permissions -> Permissions which are required to be granted by the user at run time. For ex-> READ_EXTERNAL_STORAGE
